@@ -5,7 +5,7 @@ body {
 /* The sidebar menu */
 .side-nav-bar{
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 120px; /* Set the width of the sidebar */
+    width: 8%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -40,10 +40,13 @@ body {
     text-align: center;
     color: #818181;
 }
+h1 {
+  font-size: 5vh;
+}
  
 header img { 
-    width: 25%;
-    height: 5%;
+    max-width: 20%;
+    height: 0%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -59,16 +62,30 @@ figcaption {
 h2 {
     text-align: center;
     color: #818181;
+    font-size: 4vh;
     
 }
 #first-project {
-    font-size: larger;
+    font-size: 3vh;
     margin-left: 280px;
     color: whitesmoke;
 }
+#first-live-site{
+  max-width: 100%;
+}
 #module-one {
-    width: 30%;
-    margin-left: 280px;
+    width: 35%;
+    margin-left: 270px;
+}
+.coming-soon {
+  display: flex;
+  color: whitesmoke;
+  margin-left: 280px;
+  margin-top: 50px;
+
+}
+.coming-soon img{
+  width: 50%
 }
 .contact {
   margin-top: 100px;
@@ -82,9 +99,11 @@ footer a{
   text-decoration: none;
 }
  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
- @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+ @media screen and (max-height: 760px) {
+  .side-nav-bar {padding-top: 15px;}
+  .side-nav-bar a {font-size: 18px;}
+  .side-nav-bar {margin: 50px;}
+  
 }
 /* Default styles for your webpage */
 .container {
@@ -96,5 +115,6 @@ footer a{
 @media only screen and (max-width: 768px) {
   .container {
       width: 200%; /* Adjust the width as needed for smaller screens */
+      background-color: lightblue; /* changing the background color to make sure the media query is actually working */
   }
 }

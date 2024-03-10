@@ -4,7 +4,7 @@ READ ME TEMPLATE
 
 ## Description
 
-A simple portfolio that i will use to showcase the work I create within this bootcamp. I hope to use this as a tool to land job interviews and eventually find a job as a junior full stack developer. I built this with intent of setting myself up for the future.
+A simple portfolio that I will use to showcase the work I create within this bootcamp. I hope to use this as a tool to land job interviews and eventually find a job as a junior full stack developer. I built this with intent of setting myself up for the future.
 
 ## Table of Contents 
 
@@ -22,9 +22,9 @@ N/A
 ## Credits
 
 The sidebar was structrued with instructions and inspiration from w3schools - https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp.
-assets/images/Screenshot 2024-03-07 at 4.29.16 PM.png
+
+
 ## License
 
 N/A
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
