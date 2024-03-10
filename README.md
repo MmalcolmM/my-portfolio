@@ -24,6 +24,9 @@ N/A
 The sidebar was structrued with instructions and inspiration from w3schools - https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp.
 
 
+<img width="1728" alt="Screenshot 2024-03-10 at 10 29 02 AM" src="https://github.com/MmalcolmM/my-portfolio/assets/151230116/c6df9ef0-ca46-4a42-bfba-f9b91c01072c">
+
+
 ## License
 
 N/A
