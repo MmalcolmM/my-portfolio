@@ -5,7 +5,7 @@ body {
 /* The sidebar menu */
 .side-nav-bar{
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 8%; /* Set the width of the sidebar */
+    width: 170px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -16,14 +16,19 @@ body {
   }
   
   /* The navigation menu links */
-  .side-nav-bar a {
-    padding: 6px 8px 6px 16px;
+  .side-nav-bar ul li a {
+    padding: 6px 6px 6px 16px;
     text-decoration: none; /* removes lines under links */
     font-size: 25px;
     color: #818181;
     display: block;
+    
+    
   } 
-  
+  .side-nav-bar ul {
+    list-style-type: none;
+    text-align: center;
+  }
   /* When you mouse over the navigation links, change their color */
   .side-nav-bar a:hover {
     color: #f1f1f1;
@@ -98,6 +103,7 @@ footer a{
   color: whitesmoke;
   text-decoration: none;
 }
+
  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
  @media screen and (max-height: 760px) {
   .side-nav-bar {padding-top: 15px;}
@@ -114,7 +120,34 @@ footer a{
 /* Media query for devices with a maximum width of 768px */
 @media only screen and (max-width: 768px) {
   .container {
-      width: 200%; /* Adjust the width as needed for smaller screens */
+      max-width: 100%; /* Adjust the width as needed for smaller screens */
       background-color: lightblue; /* changing the background color to make sure the media query is actually working */
+      /* display: flex;
+      flex-direction: column;
+      align-items: center; */
+    
   }
+  .side-nav-bar {
+    position: relative;
+    width: 100%; 
+
+} 
+.side-nav-bar ul li {
+  display: inline-block;
 }
+
+}
+
+/* @media only screen and (max-width: 450px) {
+  .side-nav-bar {
+    position: relative;
+    width: 100%;
+   
+  }
+  
+  .side-nav-bar ul {
+    display: flex;
+  
+  }
+
+} */
