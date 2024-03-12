@@ -106,7 +106,17 @@ h2 {
 
 .coming-soon img {
   width: 50%;
-  margin-left: 180px;
+ 
+}
+.coming-soon{
+  display: flex;
+  justify-content: center;
+  margin-left: 320px;
+}
+
+#placeholder {
+  margin: 0;
+  padding: 0;
 }
 
 .contact {
@@ -124,7 +134,7 @@ footer a {
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 768px) {
+@media screen and (max-width: 768px) {
   .side-nav-bar {
     padding-top: 15px;
   }
@@ -166,13 +176,13 @@ figcaption {
 .coming-soon {
   width: 70%;
   display: flex;
-  justify-content: center;
-  margin-left: 150px;
+  /* margin-left:150px; */
 
 }
 #placeholder {
   margin: 0;
   padding: 0;
+  /* margin-right: 200px; */
 }
 
 
