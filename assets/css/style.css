@@ -13,11 +13,13 @@ body {
     background-color: #111; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
   }
   
   /* The navigation menu links */
   .side-nav-bar ul li a {
-    padding: 6px 6px 6px 16px;
+    padding: 6px 16px 6px 6px;
     text-decoration: none; /* removes lines under links */
     font-size: 25px;
     color: #818181;
@@ -105,7 +107,7 @@ footer a{
 }
 
  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
- @media screen and (max-height: 760px) {
+ @media screen and (max-height: 768px) {
   .side-nav-bar {padding-top: 15px;}
   .side-nav-bar a {font-size: 18px;}
   .side-nav-bar {margin: 50px;}
@@ -116,6 +118,29 @@ footer a{
   width: 80%;
   margin: 0 auto;
 }
+#first-project {
+  /* display: flex;
+  justify-content: center; */
+  width: 100%;
+  margin-left: 180px;
+}
+figcaption {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+#module-one {
+  width: 50%;
+  margin-left: 150px;
+}
+.coming-soon {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-left: 150px;
+
+}
+
 
 /* Media query for devices with a maximum width of 768px */
 @media only screen and (max-width: 768px) {
